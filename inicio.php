@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,7 +22,7 @@
         <div class="register_login">
             <a href="php/index.php"><strong>Iniciar Seccion</strong></a>
             <a href="#"><strong>Registrarse </strong></a>
-            <img src="img/logo.png" alt="" class="logo">
+            <img src="/assets/img/logo.png" alt="" class="logo">
         </div>
         
     </header>
@@ -30,47 +31,47 @@
 
     <div class="menu__side" id="menu_side">
         <div class="name__page">
-            <img src="img/edu.png" alt="" class="edu">
+            <img src="/assets/img/edu.png" alt="" class="edu">
             <h4>NexTech</h4>
         </div>
         <div class="options__menu">
 
             <a href="#" class="selected">
                 <div class="option">
-                    <img src="img/inicio.png" alt="Inicio" class="inicio">
+                    <img src="/assets/img/inicio.png" alt="Inicio" class="inicio">
                     <h3>Inicio</h3>
                 </div>
             </a>
 
             <a href="#">
                 <div class="option">
-                    <img src="img/tarea.png" alt="Tarea" class="work">
+                    <img src="/assets/img/tarea.png" alt="Tarea" class="work">
                     <h3>Tareas</h3>
                 </div>
             </a>
 
             <a href="#">
                 <div class="option">
-                    <img src="img/chat.png" alt="Chat" class="chat">
+                    <img src="/assets/img/chat.png" alt="Chat" class="chat">
                     <h3>Chat</h3>
                 </div>
             </a>
 
             <a href="#">
                 <div class="option">
-                    <img src="img/exam.png" alt="Exam" class="exam">
+                    <img src="/assets/img/exam.png" alt="Exam" class="exam">
                     <h3>Exam</h3>
                 </div>
             </a>
             <a href="#">
                 <div class="option">
-                    <img src="img/exam.png" alt="Exam" class="exam">
+                    <img src="/assets/img/exam.png" alt="Exam" class="exam">
                     <h3>Exam</h3>
                 </div>
             </a>
             <a href="#">
                 <div class="option">
-                    <img src="img/exam.png" alt="Exam" class="exam">
+                    <img src="/assets/img/exam.png" alt="Exam" class="exam">
                     <h3>Exam</h3>
                 </div>
             </a>
@@ -80,9 +81,8 @@
         </div>
     </div>
     <main>
-        <h1>title exemple</h1> <br>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi deleniti tenetur at, dolore eum accusamus recusandae ex nemo. Autem sint nostrum debitis similique ex qui. Molestias, perferendis dolorem. Eum, quis?</p><br>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius placeat vitae quasi odio, dignissimos eveniet nisi autem repellat odit? Iste animi, nam neque quis mollitia ex iusto doloribus ut fugiat.</p>
+        <h1> <h1>
+        <p></p>
     </main>
 <script src="js/script2.js"></script>
 </body>
