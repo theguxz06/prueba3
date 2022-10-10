@@ -10,8 +10,8 @@ include 'conexion_be.php';
     if(mysqli_num_rows($validar_login) > 0){
         echo '
             <script>
-                alert("Usuario no existe")
-                window.location = "../index.php"
+                alert("inicio correcto")
+                window.location = "../inicio.php"
             </script>
         ';
         exit();
