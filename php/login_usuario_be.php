@@ -10,7 +10,7 @@ include 'conexion_be.php';
     if(mysqli_num_rows($validar_login) > 0){
         echo '
             <script>
-                alert("inicio correcto")
+                alert("inico correcto")
                 window.location = "../inicio.php"
             </script>
         ';
