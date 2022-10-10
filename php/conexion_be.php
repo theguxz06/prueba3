@@ -1,6 +1,6 @@
 <?php
 
-    $conexion = mysqli_connect("localhost", "root", "", "login_register_bd" );
+    $conexion = mysqli_connect("containers-us-west-91.railway.app", "root", "oXCWxQ5NOZD77xqyKR9q", "railway" );
     /*
     if($conexion){
         echo 'Conectado exitosamente a la base de datos';
