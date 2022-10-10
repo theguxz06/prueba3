@@ -8,7 +8,7 @@ include 'conexion_be.php';
      WHERE correo='$correo'  and contrasna='$contrasena'");
 
     if(mysqli_num_rows($validar_login) > 0){
-        header("location: ../inicio.php");
+        header("location: /inicio.php");
         exit();
     }else{
         echo '
