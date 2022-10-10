@@ -8,7 +8,12 @@ include 'conexion_be.php';
      WHERE correo='$correo'  and contrasna='$contrasena'");
 
     if(mysqli_num_rows($validar_login) > 0){
-        header("location: ../inicio.php");
+        echo '
+            <script>
+                alert("Usuario no existe")
+                window.location = "../index.php"
+            </script>
+        ';
         exit();
     }else{
         echo '
