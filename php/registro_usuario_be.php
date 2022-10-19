@@ -36,19 +36,7 @@
 
     $ejecutar = mysqli_query($conexion, $query);
 
-    if($ejecutar){
-        echo '
-            <script>
-            window.location = "../index.php";         
-            </script>
-        ';
-    }else{
-        '<script>
-            alert("Intente denuevo");
-            window.location = "../index.php";
-            </script>
-        ';
-    }
+    
 
     mysqli_close($conexion);
 ?>
