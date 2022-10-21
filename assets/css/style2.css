@@ -1,149 +1,94 @@
-:root {
-    --fondo-color: #181818;
-    --items-color: #202020;
-    --border-color: #383838;
-    --text-color: #e7e7e7;
-}
-
-* {
-    padding: 0;
-    box-sizing: border-box;
+*{
     margin: 0;
+    padding: 0;
 }
-
-html {
-    font-size: 62.5%;
-    font-family: sans-serif;
-}
-
-body {
-    width: 100%;
-    height: 100vh;
-    background-color: var(--fondo-color);
-    position: relative;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 70px;
-    background-color: var(--items-color);
-    position: fixed;
-    border-bottom: 1px solid var(--border-color);
-}
-.usuario{
-    position: absolute;
-    width: 100%;
-    justify-content: space-between;
-    text-align: right;
-    padding-right: 20px;
-
-}
-
-
-
-nav img {
-    margin-left: 20px;
+.edu {
     width: 40px;
 }
-
-
-nav span i {
-    color: #fff;
-    font-size: 2.7rem;
-    cursor: pointer;
-}
-nav header{
-    background-color: #fff;
-    width: 100%;
-    justify-content: space-between;
-    text-align: end;
-    height: 80px;
+.encabezado{
+    background-color: rgb(180, 173, 173);
+    height: 100%;
+    width: 50px;   
     position: absolute;
-    display: flex;
+    top: 0px;
+    font-size: 0;
+    transition: all 300ms ease;
 }
+.encabezado a{    
+    display: flex;
+    width: 100%;
+    margin-top: 20px;    
+    transition: all 200ms ;
+}
+.encabezado img{
+    width: 40px;
+    margin-left: 5px;
+    padding-right: 10px;
+}       
 
 a{
-    padding-left: 50px;
-    font-size: 15px;
-    color: #fff;
     text-decoration: none;
+    color: black; 
     
 }
-.seccion {
-    position: absolute;
+nav {
     justify-content: space-between;
     text-align: end;
+    background-color: rgb(136, 131, 131);
+    height: 60px;
     width: 100%;
-
-    height: 80px;
-    padding-right: 10px;
+    
 }
-.seccion_t{
-    display: inline-flex;
-}
-
-span img{
-    background-color: darkblue;
-    width: 102px;
+.usuario{
+    padding-top: 10px;
+    padding-right: 15px;
+    
 }
 
-aside {   
-    background-color: var(--items-color);
-    width: 260px;
+.secion{
     position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    overflow-y: hidden;
-    margin-top: 59px;
-    transition: 250ms;
+    display: inline-block;
+    font-size: 20px;
+    background-color: goldenrod;
+    height: 240px;
+    width: 200px;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+    right: 0;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 
-aside:hover {
-    overflow-y: auto;
-}
-
-.desplegar {
-    transform: translateX(-100%);
-}
-
-aside::-webkit-scrollbar {
-    width: 8px;
-}
-
-aside::-webkit-scrollbar-thumb {
-    background-color: #909090;
-    border-radius: 5px;
-}
-
-.container-svg {
-    border-bottom: 1px solid var(--border-color);
-    padding: 10px 1px;
-    color: var(--text-color);
-}
-
-.container-svg div {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 10px 20px;
+.usu{
+    width: 50px;
+    height: 45px;
+    border-radius: 180px;
     cursor: pointer;
+    position: relative;
+}
+.put0{
+    width: 0px;
 }
 
-.container-svg div:hover {
-    background-color: #303030;
-}
 
-.container-svg div span {
-    margin-left: 15px;
-    font-size: 1.5rem;
-    font-weight: 500;
+#sec:checked ~ .secion {
+    opacity: 1;
+    visibility: visible;
+    
 }
-
-h2 {
-    padding: 10px 20px;
-    color: #aaaaaa;
+.encabezado:hover{
+    height: 100%;
+    width: 200px;
+    font-size: 25px;    
+}
+.encabezado a:hover{
+    width: 45px;
+    font-size: 30px;
+    width: 230px;
+    background-color: rgb(147, 144, 144);
+    padding-left: 10px;
+    height: 40px;
 }
