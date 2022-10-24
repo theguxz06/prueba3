@@ -1,4 +1,7 @@
 <?php 
+
+    session_start();
+
 include 'conexion_be.php';
 
     $correo = $_POST['correo'];
@@ -8,9 +11,9 @@ include 'conexion_be.php';
      WHERE correo='$correo'  and contrasna='$contrasena'");
 
     if(mysqli_num_rows($validar_login) > 0){
+        $_SESSION['usuario'] = $correo;
         echo '
             <script>
-                alert("inico correcto")
                 window.location = "../inicio.php"
             </script>
         ';
@@ -18,7 +21,7 @@ include 'conexion_be.php';
     }else{
         echo '
             <script>
-                alert("Usuario no existe")
+                alert ("Inicia session")
                 window.location = "../index.php"
             </script>
         ';
